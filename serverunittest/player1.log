@@ -1,0 +1,8 @@
+START OF LOG
+client on port 38390
+normal bot mode
+OK message received: OK A
+GRID message received: GRID 22 80
+displayStart
+wRows = 24
+wCols = 80
