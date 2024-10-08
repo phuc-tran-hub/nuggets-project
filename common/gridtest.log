@@ -1,0 +1,61 @@
+--- START grid 1 --------------
+Create first grid...
+grid_makeEmptyGrid successful for grid1
+--- END grid 1 --------------
+
+--- START grid 2 --------------
+Create second grid...
+grid_loadGridFromFile successful for grid2
+grid2's xLength: 79
+grid_getXLength successful for grid2
+grid2's yLength: 21
+grid_getYLength successful for grid2
+
+grid_getSpot successful for an empty spot
+grid_getSpot successful for a corner spot
+grid_getSpot successful for a boundary spot
+grid_getSpot successful for an available spot
+
+grid_checkSpot successful for an empty spot
+grid_checkSpot successful for an corner spot
+grid_checkSpot successful for an boundary spot
+grid_checkSpot successful for an available spot
+--- END grid 2 --------------
+--- START grid 3 --------------
+--- START grid 4 --------------
+Create third grid...
+grid_loadGridFromFile successful for grid3
+  +----------+
+  |..........|
+  |..........|
+  |..........|
+  +----------+
+Create fourth grid...
+grid_loadGridFromFile successful for grid4
+  +----------+
+  |...B......|
+  |*......A..|
+  |...*.....*|
+  +----------+
+Combining third and fourth grid...
+  +----------+
+  |...B......|
+  |*......A..|
+  |...*.....*|
+  +----------+
+Testing grid_toString...
+grid_toString successful for grid3
+  +----------+
+  |...B......|
+  |*......A..|
+  |...*.....*|
+  +----------+
+Testing grid_setSpot...
+Inserting 'C' at 3,1 (y, x)...
+  +----------+
+  |C..B......|
+  |*......A..|
+  |...*.....*|
+  +----------+
+--- END grid 3 --------------
+--- END grid 4 --------------
